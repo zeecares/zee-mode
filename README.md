@@ -13,7 +13,7 @@ was already portable: markdown that makes an agent rigorous.
 
 ## What's in it
 
-- **principles/** - twelve engineering principles as a steering vocabulary.
+- **principles/** - thirteen engineering principles as a steering vocabulary.
   You steer an agent by naming a principle; the name points at a rule it has
   already read. See `principles/README.md`.
 - **skills/create-verification-skill/** - interviews a repo and generates a
@@ -51,4 +51,5 @@ you need:
 
 MIT, Ziyi Wang. Adapted from pstack (MIT, Lauren Tan) - see `NOTICE` for
 exactly which parts are adapted and where the originals live.
-`skills/calibrate/` is original.
+`skills/calibrate/` and `principles/keep-behavior-drop-structure.md` are
+original.
