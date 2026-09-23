@@ -77,7 +77,7 @@ is welcome for the judge prompt, under the same rules as manual iteration:
 - An optimized judge faces the same acceptance bar as a hand-iterated one:
   full report, pinned versions, one sealed-test confirmation.
 
-## Typed-decision judges (Jev and similar)
+## Typed-decision judges
 
 Some judges return typed decisions only - a probability, a score, a choice
 distribution - with no reasoning. Work with that, do not decorate it:
