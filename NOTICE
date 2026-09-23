@@ -35,7 +35,8 @@ Adapted portions:
 - skills/interrogate/ is a host-agnostic rewrite of
   pstack/skills/interrogate/ and its references.
 
-skills/calibrate/ is original to this project and not derived from pstack.
+skills/calibrate/ and principles/keep-behavior-drop-structure.md are
+original to this project and not derived from pstack.
 
 Per the MIT license, pstack's copyright and permission notice are reproduced
 above and apply to the adapted portions.

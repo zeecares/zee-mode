@@ -1,6 +1,6 @@
 # Principles
 
-Twelve engineering principles, one file each, as a steering vocabulary for
+Thirteen engineering principles, one file each, as a steering vocabulary for
 agents. You do not invoke principles. You name them. Each name points at a
 rule the agent has already read, so one phrase redirects work more precisely
 than a paragraph of instructions.
@@ -18,11 +18,13 @@ When an agent applies a principle, it names the principle and the decision
 it changed. A citation with no decision behind it means the agent
 name-dropped instead of applying.
 
-## The twelve
+## The thirteen
 
 Deciding how much to build:
 
 - **subtract-before-you-add** - remove dead weight before building on it.
+- **keep-behavior-drop-structure** - when replacing a system, keep what it
+  does, drop how it happens to do it, and list what you deleted.
 - **minimize-reader-load** - collapse the layers and hidden state a reader
   must hold in their head.
 - **attack-the-premise** - after repeated failed fixes, question the premise
@@ -50,3 +52,5 @@ Defining what counts as proof:
 Adapted from pstack's 23 principles (MIT, Lauren Tan) - see ../NOTICE. The
 subset is what this repo's consumers run every day; pull more over from
 pstack when a name here would have caught something it missed.
+keep-behavior-drop-structure is original to this repo, not adapted from
+pstack.
